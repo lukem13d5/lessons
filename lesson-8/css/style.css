@@ -1,0 +1,120 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+.page {
+    padding: 0 10px;
+    font-family: Lato;
+    border: 1px solid transparent;
+}
+
+[class*="__container"] {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.about-block {
+    line-height: 1.6;
+    color: #424551;
+    margin-bottom: 180px;
+}
+.about-block-heading {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    color: #1e212c;
+}
+.about-block__description {
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+.about-block__subtitle {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #1e212c;
+    margin-bottom: 24px;
+}
+.check-list-about-block__item {
+    padding-left: 32px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.check-list-about-block__item::before {
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    transform: translate(0, -50%);
+    position: absolute;
+    background: url(../img/icons/check.svg) no-repeat;
+}
+.curator-block-page {
+    line-height: 1.6;
+    color: #424551;
+    margin-bottom: 180px;
+}
+.curator-block-page__subtitle {
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1e212c;
+    margin-bottom: 8px;
+}
+.curator-block-page__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1e212c;
+    margin-bottom: 16px;
+}
+.curator-block-page__job-title {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #787a80;
+    margin-bottom: 32px;
+}
+.achievements-curator-block-page {
+    margin-bottom: 32px;
+}
+.achievements-curator-block-page__item {
+    font-weight: 700;
+    margin-bottom: 4px;
+    padding-left: 24px;
+    position: relative;
+}
+.achievements-curator-block-page__item::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 16px;
+    height: 16px;
+    content: "";
+}
+.achievements-curator-block-page__item--stars {
+    background: url(../img/icons/star.svg) no-repeat 0;
+}
+.achievements-curator-block-page__item--courses-counter {
+    background: url(../img/icons/play.svg) no-repeat 0;
+}
+.achievements-curator-block-page__item--students-counter {
+    background: url(../img/icons/person.svg) no-repeat 0;
+}
+.curator-block-page__description {
+    margin-bottom: 40px;
+}
+.social-section-curator-block-page__button:not(:last-child) {
+    margin-right: 24px;
+}
+.social-section-curator-block-page__button svg {
+    transition: all ease 1s;
+}
+.social-section-curator-block-page__button svg:hover {
+    fill: #ff3f3a;
+}
+.social-section-curator-block-page {
+    font-size: 0;
+}
